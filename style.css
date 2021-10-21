@@ -1,0 +1,93 @@
+
+
+/* Seccion de bienvenida */
+
+#containerTitleImg {
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/img-4-1594896213.jpeg?resize=768:*");
+    filter:blur(7px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 20;
+    background-color: #BFD6D9;
+
+    
+}
+#containerTitleText {
+    text-align: right;
+    margin: 0;
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+/*  Nuestros Vehiculos  */
+
+#sectionNuestrosVehiculos {
+    background-color: #CFE0DE;
+    position: relative;
+    padding-bottom: 9vh;
+}
+
+h2 {
+    text-align: center;
+    padding: 5vh;
+    margin: -2vh;
+
+}
+
+#cardSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+
+}
+
+.cardVehiculo {
+    border: solid #011C40;
+    margin-left: 5vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.cardImg {
+    max-width:  100%;
+    max-height: 28vh;
+    border-radius: 150px;
+    margin: 0 auto;
+
+    
+}
+
+.cardLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.liCaracteristicas {
+    list-style-type: none;
+    
+}
+
+.listaCaracteristicas {
+    padding:3vh;
+    text-align: center;
+}
+

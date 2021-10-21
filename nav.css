@@ -1,0 +1,41 @@
+
+
+#navId {    /* Estructura base del nav */
+    
+    background-color: #CFE0DE/*#003e65*/;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    z-index: 100000;
+    width: 100%;
+    position: fixed;
+
+    
+}
+
+#containerNavLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 15%;
+}
+
+.navLink { /* Links dentro del Nav  */
+    text-decoration: none;
+    color:#011C40;
+    padding: 2vh;
+
+
+}
+
+.navLink:hover {
+    background-color: #016893;
+}
+
+
+#navImg {
+  height: 6vh;
+
+
+}
