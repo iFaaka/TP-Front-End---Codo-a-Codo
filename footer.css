@@ -9,8 +9,8 @@ footer {
 .footerText {
     color: white;
     margin: 0;
-    padding:3vh
-
+    padding:3vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 #linkFooter {

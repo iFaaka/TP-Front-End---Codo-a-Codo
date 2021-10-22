@@ -31,6 +31,7 @@
     width: 80%;
     padding: 20px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*  Nuestros Vehiculos  */
@@ -45,6 +46,9 @@ h2 {
     text-align: center;
     padding: 5vh;
     margin: -2vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5vh;
 
 }
 
@@ -63,6 +67,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     background-color: #ffff;
+    font-family: 'Raleway', sans-serif;
 }
 
 .cardImg {
@@ -89,5 +94,6 @@ h2 {
 .listaCaracteristicas {
     padding:3vh;
     text-align: center;
+    font-weight: 300;
 }
 
