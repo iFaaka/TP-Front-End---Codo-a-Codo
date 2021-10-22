@@ -45,7 +45,7 @@
 
 /*  Responsive */
 
-@media (max-width: 425px) {
+@media (max-width: 667px) {
 
     .navLink {
         font-size: 2vh;

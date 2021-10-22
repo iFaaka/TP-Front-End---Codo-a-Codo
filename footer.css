@@ -27,7 +27,7 @@ footer {
 
 /*  Responsive */
 
-@media (max-width: 425px) {
+@media (max-width: 667px) {
 
     .footerText {
         font-size: 2vh;
