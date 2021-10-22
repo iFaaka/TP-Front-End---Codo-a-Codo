@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nuestrosVehiculos.css">
+
 
 
 </head>
@@ -22,12 +23,27 @@
 
 
     <main id="mainId">
-
-        <section class="container" id="sectionVehiculos">
         
+        <section class="container" id="sectionVehiculos">
+            
             <h1>Nuestros usados seleccionados</h1>
-            <div id="menuFiltro">   </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/JEgAAOSwkVNhYDEE/s-l500.jpg" class="imgCard" alt="Porsche992"><p>Porsche 992 Turbo S</p>
+            <div id="menuFiltro">  
+                <form>
+                    <label for="checkPorsche">Porsche</label>
+                    <input type="checkbox" name="checkPorsche" id="checkPorsche" checked>
+                    
+
+                    <label for="checkMercedes">Mercedes</label>
+                    <input type="checkbox" name="checkMercedes" id="checkMercedes" onclick="ocultarVehiculo(checkMercedes)">
+
+                    <label for="checkMcLaren">McLaren</label>
+                    <input type="checkbox" name="checkMcLaren" id="checkMcLaren" onclick="ocultarVehiculo(checkMcLaren)">
+
+
+                </form>
+            
+            </div>
+            <div class="cardVehiculo Porsche" id="prueba"><img src="https://i.ebayimg.com/images/g/JEgAAOSwkVNhYDEE/s-l500.jpg"  class="imgCard" alt="Porsche992"><p>Porsche 992 Turbo S</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas">Motor: 3.7 Turbo</li>
@@ -38,10 +54,10 @@
 
             </ul>
             
-            <button onclick="enDesarrollo">Contactanos</button>
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/dcAAAOSw-phhZsh6/s-l500.jpg" class="imgCard" alt="MercedesG"><p>Mercedes-Benz Clase G</p>
+            <div class="cardVehiculo Mercedes"><img src="https://i.ebayimg.com/images/g/dcAAAOSw-phhZsh6/s-l500.jpg" id="class="imgCard " alt="MercedesG"><p>Mercedes-Benz Clase G</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas">Motor: 3.0 Turbo</li>
@@ -52,10 +68,10 @@
 
             </ul>
             
-            <button onclick="enDesarrollo">Contactanos</button>
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/YvMAAOSwJKVhYDAK/s-l500.jpg" class="imgCard" alt="McLaren720"><p>Mclaren 720s</p>
+            <div class="cardVehiculo Mclaren"><img src="https://i.ebayimg.com/images/g/YvMAAOSwJKVhYDAK/s-l500.jpg" class="imgCard " alt="McLaren720"><p>Mclaren 720s</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas">Motor: 4.0 Turbo</li>
@@ -66,10 +82,10 @@
 
             </ul>
             
-            <button onclick="enDesarrollo">Contactanos</button>
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/bZ4AAOSwOLFhb3Tm/s-l500.jpg" class="imgCard" alt="LamborghiniHuracan"><p>Lamborghini Huracan</p>
+            <div class="cardVehiculo Lamborghini"><img src="https://i.ebayimg.com/images/g/bZ4AAOSwOLFhb3Tm/s-l500.jpg" class="imgCard " alt="LamborghiniHuracan"><p>Lamborghini Huracan</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas" >Motor:</li>
@@ -80,10 +96,10 @@
 
             </ul>
             
-            <button onclick="enDesarrollo">Contactanos</button>
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/wCYAAOSwmX1hcAT2/s-l500.jpg" class="imgCard" alt="McLaren720Rendimiento"><p>McLaren 720S Rendimiento</p>
+            <div class="cardVehiculo Mclaren"><img src="https://i.ebayimg.com/images/g/wCYAAOSwmX1hcAT2/s-l500.jpg" class="imgCard " alt="McLaren720Rendimiento"><p>McLaren 720S Rendimiento</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas" >Motor: 4.0 Twin Turbo</li>
@@ -94,10 +110,10 @@
 
             </ul>
             
-            <button onclick="enDesarrollo">Contactanos</button>
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo"><img src="https://i.ebayimg.com/images/g/b~QAAOSwwjlhYDEA/s-l500.jpg" class="imgCard" alt="McLarenSenna"><p>McLaren Senna</p>
+            <div class="cardVehiculo Mclaren"><img src="https://i.ebayimg.com/images/g/b~QAAOSwwjlhYDEA/s-l500.jpg" class="imgCard " alt="McLarenSenna"><p>McLaren Senna</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas" >Motor: 4.0 Twin Turbo</li>
@@ -107,8 +123,10 @@
 
 
             </ul>
-            
-            <button onclick="enDesarrollo">Contactanos</button>
+
+
+
+            <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
 
@@ -130,11 +148,79 @@
     
     <footer id="footerId" >
     </footer>
+ 
 
-    
+    <style>
+
+        .oculto {
+            display: none;
+        }
+
+        .visible {
+            display: block;
+        }
+    </style>
+ 
 </body>
 
 
 <script src="js/chargeNav.js"></script>
 <script src="js/chargeFooter.js"></script>
+
+<script> 
+
+prueba()
+    
+
+    let enDesarrollo = function() {
+        
+        document.enDesarrollo = alert("       Esa funcion aun no esta disponible :(       ")
+
+    }
+
+
+
+
+
+
+
+
+ 
+    
+           
+
+    
+function prueba () {
+    var checkbox = document.getElementById("checkPorsche")
+    
+    checkbox.addEventListener("change", function () {
+
+                
+        var element = document.getElementById("checkPorsche");
+ 
+
+        if (this.checked) {
+            console.log("chequedo")
+            var card = document.querySelector(".Porsche")
+            card.classList.toggle("visible");
+          
+
+        }
+            else {
+                console.log("sin chequar")
+            var card = document.querySelector(".Porsche")
+            card.classList.toggle("oculto");
+
+                
+
+
+
+            } 
+            
+        });
+    }
+
+
+</script>
+
 </html>

@@ -1,0 +1,17 @@
+.botonContacto {
+    background-color: #016893;
+    color: white;
+    padding: 2vh;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 15px;
+    margin-bottom: 4vh;
+}
+
+.container {
+    margin: 0;
+    margin-top: 10vh;
+    display: grid;
+
+
+
+}
