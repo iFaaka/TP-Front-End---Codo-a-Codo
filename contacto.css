@@ -12,9 +12,7 @@
 }
 
 
-h1 {
-    margin-top: 9vh;
-}
+
 
 #iframeMap {
     border:0;
@@ -22,4 +20,10 @@ h1 {
     height: 400px;
        
 
+}
+
+#divForm {
+    border: solid #011C40;
+    margin-top: 15vh;
+    padding: 5vh;
 }
