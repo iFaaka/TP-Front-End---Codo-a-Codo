@@ -13,6 +13,7 @@
     background-size: cover;
     z-index: 20;
     background-color: #BFD6D9;
+    width: 100vw;
 
     
 }
@@ -40,7 +41,7 @@
     background-color: #CFE0DE;
     position: relative;
     padding-bottom: 9vh;
-
+    width:100vw;
 }
 
 h2 {
