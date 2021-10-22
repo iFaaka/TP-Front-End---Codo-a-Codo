@@ -34,10 +34,13 @@
                     
 
                     <label for="checkMercedes">Mercedes</label>
-                    <input type="checkbox" name="checkMercedes" id="checkMercedes" onclick="ocultarVehiculo(checkMercedes)">
+                    <input type="checkbox" name="checkMercedes" id="checkMercedes" checked>
 
                     <label for="checkMcLaren">McLaren</label>
-                    <input type="checkbox" name="checkMcLaren" id="checkMcLaren" onclick="ocultarVehiculo(checkMcLaren)">
+                    <input type="checkbox" name="checkMcLaren" id="checkMcLaren" checked>
+
+                    <label for="checkMcLaren">Lamborghini</label>
+                    <input type="checkbox" name="checkMcLaren" id="checkLamborghini" checked>
 
 
                 </form>
@@ -71,7 +74,7 @@
             <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo Mclaren"><img src="https://i.ebayimg.com/images/g/YvMAAOSwJKVhYDAK/s-l500.jpg" class="imgCard " alt="McLaren720"><p>Mclaren 720s</p>
+            <div class="cardVehiculo McLaren"><img src="https://i.ebayimg.com/images/g/YvMAAOSwJKVhYDAK/s-l500.jpg" class="imgCard " alt="McLaren720"><p>Mclaren 720s</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas">Motor: 4.0 Turbo</li>
@@ -169,8 +172,11 @@
 
 <script> 
 
-prueba()
-    
+ocultarPorsche()
+ocultarMercedes()
+ocultarMclaren()
+ocultarLambo ()
+
 
     let enDesarrollo = function() {
         
@@ -180,44 +186,124 @@ prueba()
 
 
 
-
-
-
-
-
- 
-    
            
 
     
-function prueba () {
-    var checkbox = document.getElementById("checkPorsche")
+function ocultarPorsche () {
+    let checkbox = document.getElementById("checkPorsche")
     
     checkbox.addEventListener("change", function () {
 
                 
-        var element = document.getElementById("checkPorsche");
+        let element = document.getElementById("checkPorsche");
  
 
         if (this.checked) {
             console.log("chequedo")
-            var card = document.querySelector(".Porsche")
-            card.classList.toggle("visible");
+            let card = document.querySelector(".Porsche")
+            card.classList.toggle("oculto");
           
 
         }
             else {
                 console.log("sin chequar")
-            var card = document.querySelector(".Porsche")
+                let card = document.querySelector(".Porsche")
             card.classList.toggle("oculto");
 
                 
-
-
-
             } 
             
         });
+    }
+
+
+    function ocultarMercedes () {
+        let checkbox = document.getElementById("checkMercedes")
+    
+    checkbox.addEventListener("change", function () {
+
+                
+        let element = document.getElementById("checkMercedes");
+ 
+
+        if (this.checked) {
+            console.log("chequedo")
+            let card = document.querySelector(".Mercedes")
+            card.classList.toggle("oculto");
+          
+
+        }
+            else {
+                console.log("sin chequar")
+                let card = document.querySelector(".Mercedes")
+            card.classList.toggle("oculto");
+
+                
+            } 
+            
+        });
+    }
+
+
+
+    function ocultarLambo () {
+        let checkbox = document.getElementById("checkLamborghini")
+    
+    checkbox.addEventListener("change", function () {
+
+                
+        let element = document.getElementById("checkLamborghini");
+ 
+
+        if (this.checked) {
+            console.log("chequedo")
+            let card = document.querySelector(".Lamborghini")
+            card.classList.toggle("oculto");
+          
+
+        }
+            else {
+                console.log("sin chequar")
+                let card = document.querySelector(".Lamborghini")
+            card.classList.toggle("oculto");
+
+                
+            } 
+            
+        });
+    }
+
+
+    function ocultarMclaren() {
+        let checkbox = document.getElementById("checkMcLaren")
+    
+    checkbox.addEventListener("change", function () {
+
+                
+        let element = document.getElementById("checkMcLaren");
+ 
+
+        if (this.checked) {
+            console.log("chequedo")
+            
+                    let card = document.querySelector(".McLaren")
+             card.classList.toggle("oculto");
+          
+
+        }
+            else {
+                console.log("sin chequar")
+                
+                    let card = document.querySelector(".McLaren")
+                    card.classList.toggle("oculto");
+
+                }
+                
+
+                
+            } 
+            
+    );
     }
 
 
