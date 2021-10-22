@@ -23,3 +23,15 @@ footer {
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+/*  Responsive */
+
+@media (max-width: 425px) {
+
+    .footerText {
+        font-size: 2vh;
+    }
+
+
+}

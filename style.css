@@ -97,3 +97,37 @@ h2 {
     font-weight: 300;
 }
 
+
+
+
+/*  Diseño Responsive */
+
+@media  (max-width: 425px) {
+
+
+
+    #cardSection {
+        flex-direction: column;
+        height: 55%;
+        align-items: center;
+
+
+    }
+
+    .cardVehiculo {
+        margin: 0;
+        margin-bottom: 15%;
+        width: 60%;
+
+    }
+
+
+    #containerTitleText {
+        width: 50%;
+    }
+
+
+
+}
+
+

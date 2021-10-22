@@ -41,3 +41,21 @@
 
 
 }
+
+
+/*  Responsive */
+
+@media (max-width: 425px) {
+
+    .navLink {
+        font-size: 2vh;
+    }
+
+    #navImg {
+        height: 3vh;
+        margin:1.5vh;
+      
+      }
+
+
+}
