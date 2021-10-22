@@ -10,7 +10,7 @@
     z-index: 100000;
     width: 100%;
     position: fixed;
-
+    
     
 }
 
@@ -45,10 +45,12 @@
 
 /*  Responsive */
 
-@media (max-width: 667px) {
+@media (max-width: 700px) {
 
     .navLink {
-        font-size: 2vh;
+        font-size: 2.5vh;
+        text-align: center;
+        padding: 1.5vh;
     }
 
     #navImg {

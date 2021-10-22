@@ -3,7 +3,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-
+    
 }
 
 .footerText {
@@ -30,7 +30,7 @@ footer {
 @media (max-width: 667px) {
 
     .footerText {
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
 
 
