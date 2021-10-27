@@ -109,6 +109,11 @@
 @media  (max-width: 1024px) {
 
 
+    .container{
+        grid-gap: 6vh;
+        grid-template-columns: 1fr 1fr
+
+    }
     .cardVehiculo {
         margin: 7%;
         margin-bottom: 15%;
