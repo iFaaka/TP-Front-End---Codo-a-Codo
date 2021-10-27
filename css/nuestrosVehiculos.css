@@ -64,11 +64,11 @@
 
 }
 
-@media  (max-width: 700px) {
+@media screen and (max-width: 479px) { 
 
     .container{
         grid-gap: 6vh;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
 
     }
 
@@ -81,6 +81,7 @@
         width: 100%;
         font-size: 1.8vh;
         padding-left: 1vh;
+        
 
     
     
@@ -94,7 +95,7 @@
         margin-bottom: 7%;
         width: 80%;
         justify-content:space-between;
-
+        width: 100% !important;
 
     }
 
@@ -106,20 +107,22 @@
 }
 
 
-@media  (max-width: 1024px) {
+@media  (min-height: 1030px) {
 
 
     .container{
         grid-gap: 6vh;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr  1fr 1fr;
+
 
     }
     .cardVehiculo {
         margin: 7%;
+        background-color: red;
         margin-bottom: 15%;
-        width: 30vh;
+        width: 50vh;
         justify-content: space-between;
-
+        
     }
 
     .cardTitle{
