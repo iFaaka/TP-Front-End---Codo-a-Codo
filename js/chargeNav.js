@@ -8,11 +8,11 @@ document.getElementById("headerId").innerHTML =(`
 
 
 <div id="containerNavLink">
-<a href="index.html" class="navLink">Inicio</a>
+<a href="index.html" class="navLink"><i class="ico fas fa-home"></i>Inicio</a>
 
-<a href="nuestrosVehiculos.html" class="navLink">Nuestros Vehiculos</a>
+<a href="nuestrosVehiculos.html" class="navLink"><i class="ico fas fa-car"></i>Nuestros Vehiculos</a>
 
-<a href="contacto.html" class="navLink">Contacto</a>
+<a href="contacto.html" class="navLink"><i class="ico fas fa-address-book"></i>Contacto</a>
 </div>
 
 </nav>

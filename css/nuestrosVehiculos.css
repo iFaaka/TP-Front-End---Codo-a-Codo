@@ -64,6 +64,11 @@
 
 }
 
+
+
+/* RESPONSIVE RESPONSIVE */
+/* RESPONSIVE RESPONSIVE */
+
 @media screen and (max-width: 479px) { 
 
     .container{
@@ -75,7 +80,7 @@
 
     .marcaMenu {
     
-        padding: 3vh;
+        padding: 2vh;
         background-color: #CFE0DE;
         color:#000000;
         width: 100%;
@@ -131,3 +136,7 @@
 
 
 }
+
+
+/* RESPONSIVE RESPONSIVE */
+/* RESPONSIVE RESPONSIVE */

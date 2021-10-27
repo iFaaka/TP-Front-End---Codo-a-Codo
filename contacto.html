@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/09633212fc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
@@ -42,15 +43,15 @@
                         
                             
                             <label for="name" class="form-label">Ingrese su nombre:</label>
-                            <input type="text" id="name" name="nombre" placeholder="Ingrese su nombre" class="form-control">
+                            <input type="text" id="name" name="nombre" placeholder="Ingrese su nombre" class="form-control" required="required">
                             <br>
                             <br>
                             <label for="lastname" class="form-label">Ingrese su apellido:</label>
-                            <input type="text" id="name" name="lastname" placeholder="Ingrese su apellido" class="form-control">
+                            <input type="text" id="name" name="lastname" placeholder="Ingrese su apellido" class="form-control" required="required">
                             <br>
                             <br>
                             <label for="phone" class="form-label">Ingrese su numero de telefono:</label>
-                            <input type="text" id="name" name="phone" placeholder="Ingrese su telefono celular" class="form-control">
+                            <input type="text" id="name" name="phone" placeholder="Ingrese su telefono celular" class="form-control" required="required" pattern="[0-9]{8,14}"> 
                             <br>
                             <br>
                             <label for="ifCliente" class="form-check-label" class="form-check-label">¿Usted ya ha sido cliente?</label>
@@ -59,7 +60,7 @@
                             <br>
                             <input type="submit" value="Envianos tus datos" class="btn btn-primary">
                             
-                            <input type="reset" value="Elimitar todo el contenido" class="btn btn-warning">
+                            <input type="reset" value="Elimitar todo el contenido" class="btn  btn-warning">
                           
 
 
