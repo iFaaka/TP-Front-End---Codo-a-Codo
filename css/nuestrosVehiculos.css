@@ -1,3 +1,37 @@
+/* MAIN GRID*/
+/* MAIN GRID*/
+
+
+
+#mainId {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+
+
+.imgCard {
+    max-width:  100%;
+    max-height: 28vh;
+}
+
+.container{
+    width: 10vh;
+    margin-top:75px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 32vw 32vw 32vw;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+
+/* MAIN GRID*/
+/* MAIN GRID*/
+
+/* ORGANIZAR INTERIOR */
+/* ORGANIZAR INTERIOR */
+
 .botonContacto {
     background-color: #016893;
     color: white;
@@ -8,59 +42,24 @@
 }
 
 
-.container{
-    margin-top:150px
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: 
-    'header header header header'
-    'menu   card    card    card'
-    'menu   card    card    card';
+#cardSectionTitle , #menuFiltro{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1200;
+    text-align: center;
 }
 
-.cardVehiculo {
-    width: 10px;
-    height: 10px;
+#cardSectionTitle{
 
-
-
-}
-.card1 {
-    grid-area: card;
+    margin-bottom: 10vh;
 
 }
 
-.card2 {
-    grid-area: card;
+.marcaMenu {
+    
+    padding: 3vh;
+    display: inline;
+    background-color: #CFE0DE;
+    color:#000000
+
+
 }
-
-.card3 {
-    grid-area: card;
-}
-
-.card4 {
-    grid-area: card;
-}
-
-.card5 {
-    grid-area: card;
-}
-
-.card6 {
-    grid-area: card;
-}
-
-
-#menuFiltro {
-    grid-area: menu;
-}
-
-
-#cardSectionTitle {
-    grid-area: header;
-}
-
-
-

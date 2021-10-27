@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;800;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/nuestrosVehiculos.css">
 
 
@@ -24,28 +24,41 @@
 
     <main id="mainId">
         
-        <section class="container" id="sectionVehiculos">
-            
-            <h1 id="cardSectionTitle">Nuestros usados seleccionados</h1>
+        <section  id="sectionVehiculos">
+            <div>      
+                <h1 id="cardSectionTitle">Nuestros usados seleccionados</h1>
+            </div>
+
             <div id="menuFiltro">  
                 <form>
-                    <label for="checkPorsche">Porsche</label>
-                    <input type="checkbox" name="checkPorsche" id="checkPorsche" checked>
                     
 
+                    <div class="marcaMenu">
+                    <label for="checkPorsche">Porsche</label>
+                    <input type="checkbox" name="checkPorsche" id="checkPorsche" checked>
+                </div>
+
+
+                    <div class="marcaMenu">
                     <label for="checkMercedes">Mercedes</label>
                     <input type="checkbox" name="checkMercedes" id="checkMercedes" checked>
+                </div>
 
+                    <div class="marcaMenu">
                     <label for="checkMcLaren">McLaren</label>
                     <input type="checkbox" name="checkMcLaren" id="checkMcLaren" checked>
+                </div>
 
+                    <div class="marcaMenu">
                     <label for="checkMcLaren">Lamborghini</label>
                     <input type="checkbox" name="checkMcLaren" id="checkLamborghini" checked>
-
+                </div>
 
                 </form>
             
             </div>
+
+          <div class="container"> 
             <div class="cardVehiculo Porsche card1" id="prueba"><img src="https://i.ebayimg.com/images/g/JEgAAOSwkVNhYDEE/s-l500.jpg"  class="imgCard" alt="Porsche992"><p>Porsche 992 Turbo S</p>
             
             <ul class="listaCaracteristicas">
@@ -60,7 +73,7 @@
             <button onclick="enDesarrollo()" class="botonContacto">Contactanos</button>
 
             </div>
-            <div class="cardVehiculo Mercedes card2"><img src="https://i.ebayimg.com/images/g/dcAAAOSw-phhZsh6/s-l500.jpg" id="class="imgCard " alt="MercedesG"><p>Mercedes-Benz Clase G</p>
+            <div class="cardVehiculo Mercedes card2"><img src="https://i.ebayimg.com/images/g/dcAAAOSw-phhZsh6/s-l500.jpg"  class="imgCard " alt="MercedesG"><p>Mercedes-Benz Clase G</p>
             
             <ul class="listaCaracteristicas">
                 <li class="liCaracteristicas">Motor: 3.0 Turbo</li>
@@ -133,7 +146,7 @@
 
             </div>
 
-
+        </div> 
         </section>
 
 
